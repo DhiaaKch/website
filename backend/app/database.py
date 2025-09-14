@@ -4,7 +4,7 @@ from bson.objectid import ObjectId
 from datetime import datetime
 from typing import List, Dict, Any, Optional
 
-uri = "mongodb+srv://Dhiaa:Lou2RkhmM1Y94vyP@cluster0.wlci481.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "*****"
 
 # Connect to MongoDB Atlas
 client = MongoClient(uri, server_api=ServerApi('1'))
