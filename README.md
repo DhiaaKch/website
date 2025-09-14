@@ -4,12 +4,12 @@ This project consists of a **FastAPI backend** and a **frontend** (ReactTS/Vite)
 
 ---
 
-## 1️⃣ Backend Setup
+1️⃣ Backend Setup
 
-### 1.1 Add `.venv` File
+1.1 Add `.venv` File
 Create a `.venv` file in the `backend` folder to store the **JWT algorithm and secret**.
 
-### 1.2 Create & Activate Python Virtual Environment
+ 1.2 Create & Activate Python Virtual Environment
 
 ```bash
 cd backend
@@ -21,7 +21,7 @@ venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 
-### 1.3 Install Dependencies
+ 1.3 Install Dependencies
 pip install bcrypt>=4.3.0 \
             dnspython>=2.7.0 \
             email-validator>=2.2.0 \
@@ -41,23 +41,23 @@ pip install bcrypt>=4.3.0 \
 
 
 ⚠️ transformers and torch are optional, only required for AI functionality.
-###1.4 Set JWT Secret
+1.4 Set JWT Secret
 
 Open backend/app/api.py and update the secret on line 236 with your own secret key.
 
-###1.5 Connect MongoDB Atlas
+1.5 Connect MongoDB Atlas
 
 Create an account and cluster on MongoDB Atlas.
 Connect your editor to Atlas .
 Search for the connection string for FastAPI connection and copy it.
 Paste it into line 7 of backend/app/database.py.
 
-## 1️⃣ Backend Setup
-###2.1 Install Dependencies
+2️⃣ Frontend Setup
+2.1 Install Dependencies
 cd frontend
 npm install
 
-###2.2 Run the Project
+2.2 Run the Project
 
 Open two separate terminals:
 
