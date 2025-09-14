@@ -233,7 +233,7 @@ async def scan(target: str = Query(...), user_id: str = "example_user_id"):
         raise HTTPException(status_code=500, detail="Failed to process nuclei output")
 # --- Scan history endpoint with simple timestamp-based auth ---
 
-SECRET_KEY = "please_please_update_me_please"  # must match your JWT secret
+SECRET_KEY = "***"  # must match your JWT secret
 
 def verify_token_timestamp(request: Request):
     auth_header = request.headers.get("Authorization")
