@@ -21,7 +21,7 @@ venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 
-###1.3 Install Dependencies
+### 1.3 Install Dependencies
 pip install bcrypt>=4.3.0 \
             dnspython>=2.7.0 \
             email-validator>=2.2.0 \
@@ -51,7 +51,8 @@ Create an account and cluster on MongoDB Atlas.
 Connect your editor to Atlas .
 Search for the connection string for FastAPI connection and copy it.
 Paste it into line 7 of backend/app/database.py.
-## 2️⃣ Frontend Setup
+
+## 1️⃣ Backend Setup
 ###2.1 Install Dependencies
 cd frontend
 npm install
